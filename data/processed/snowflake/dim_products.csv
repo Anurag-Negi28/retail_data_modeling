@@ -1,0 +1,11 @@
+product_id,product_name,price,category_id
+1,Product_1,324.43,1
+2,Product_2,275.72,2
+3,Product_3,142.83,2
+4,Product_4,40.61,1
+5,Product_5,149.44,3
+6,Product_6,487.18,2
+7,Product_7,464.59,2
+8,Product_8,353.9,3
+9,Product_9,240.49,3
+10,Product_10,319.22,3

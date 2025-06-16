@@ -1,0 +1,45 @@
+Table dim_products {
+  product_id int [pk]
+  product_name varchar
+  price float
+  category_id int [ref: > dim_categories.category_id]
+}
+
+Table dim_categories {
+  category_id int [pk]
+  category_name varchar
+}
+
+Table dim_customers {
+  customer_id int [pk]
+  customer_name varchar
+  email varchar
+  address varchar
+  start_date date
+  end_date date
+  is_active boolean
+}
+
+Table dim_time {
+  date_id int [pk]
+  date date
+  day int
+  quarter int
+  day_of_week varchar
+  month_id int [ref: > dim_months.month_id]
+}
+
+Table dim_months {
+  month_id int [pk]
+  month int
+  year int
+}
+
+Table fact_sales {
+  sale_id int [pk]
+  product_id int [ref: > dim_products.product_id]
+  customer_id int [ref: > dim_customers.customer_id]
+  date_id int [ref: > dim_time.date_id]
+  quantity int
+  total_amount float
+}

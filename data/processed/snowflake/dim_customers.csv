@@ -1,0 +1,21 @@
+customer_id,customer_name,email,address,start_date,end_date,is_active
+1,Customer_1,customer1@example.com,211 Main St,2024-01-01,,True
+2,Customer_2,customer2@example.com,243 Main St,2024-01-01,,True
+3,Customer_3,customer3@example.com,646 Main St,2024-01-01,,True
+4,Customer_4,customer4@example.com,741 Main St,2024-01-01,,True
+5,Customer_5,customer5@example.com,566 Main St,2024-01-01,,True
+6,Customer_6,customer6@example.com,582 Main St,2024-01-01,,True
+7,Customer_7,customer7@example.com,492 Main St,2024-01-01,,True
+8,Customer_8,customer8@example.com,103 Main St,2024-01-01,,True
+9,Customer_9,customer9@example.com,423 Main St,2024-01-01,,True
+10,Customer_10,customer10@example.com,686 Main St,2024-01-01,,True
+11,Customer_11,customer11@example.com,752 Main St,2024-01-01,,True
+12,Customer_12,customer12@example.com,895 Main St,2024-01-01,,True
+13,Customer_13,customer13@example.com,809 Main St,2024-01-01,,True
+14,Customer_14,customer14@example.com,478 Main St,2024-01-01,,True
+15,Customer_15,customer15@example.com,107 Main St,2024-01-01,,True
+16,Customer_16,customer16@example.com,321 Main St,2024-01-01,,True
+17,Customer_17,customer17@example.com,317 Main St,2024-01-01,,True
+18,Customer_18,customer18@example.com,220 Main St,2024-01-01,,True
+19,Customer_19,customer19@example.com,619 Main St,2024-01-01,,True
+20,Customer_20,customer20@example.com,992 Main St,2024-01-01,,True
